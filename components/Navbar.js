@@ -4,9 +4,9 @@ const Navbar = () => {
     return (
         <div className={Styles.navbar}>
             <div className={Styles.links}>
-                <Link href={"/"}>Home</Link>
+                <Link href={"/"}>Grid Layout</Link>
                 <Link href={"/ResponsiveGrid/"}>Responsive Grid</Link>
-                {/* <Link href={"/profile"}>Profile</Link> */}
+                <Link href={"/OrderList"}>Order List</Link>
             </div>
         </div>
     )
